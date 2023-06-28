@@ -1,4 +1,4 @@
-#  Environment: cd C:\Users\kwdel\PycharmProjects\buildingServers\web\server
+#  
 from flask import Flask, render_template, request, redirect
 import csv
 
