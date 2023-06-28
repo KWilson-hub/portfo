@@ -1,4 +1,4 @@
-#  Environment: cd C:\Users\kwdel\PycharmProjects\buildingServers\web\server
+
 from flask import Flask, render_template, request, redirect
 import csv
 
@@ -47,8 +47,3 @@ def submit_form():
     else:
         return 'Something went wrong. Try again!'
 
-# ================PREFERRED OPTION===================
-# In Powershell:
-# In Powershell Terminal type:  $env:FLASK_APP = "server.py"
-# to test connection, then type: flask run
-# to activate debug and run in browser, type: flask --app server run --debug
